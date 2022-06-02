@@ -46,6 +46,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#speakers">Guest speakers</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#organization">Organization</a>
           </li>
           <li class="nav-item">
@@ -71,6 +74,107 @@
       </div>
     </div>
   </header>
+
+  <section class="bg-light page-section" id="speakers">
+    <div class="container">
+      <h2 class="text-center mt-0">Guest speakers</h2>
+      <hr class="divider my-4">
+      <div class="row justify-content-center">
+        <h3 class="text-center mt-0">Keynotes</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mx-auto my-4 text-justify">
+          <div class="row my-4 mx-auto justify-content-center">
+            <div class="col-lg-9 text-center">
+              <a href="https://wwwen.uni.lu/snt/people/michail_papadakis" target="_blank">
+                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/mike.png" alt="Michail Papadakis">
+              </a>
+              <a href="https://wwwen.uni.lu/snt/people/michail_papadakis" target="_blank">
+                <h5>Michail Papadakis</h5>
+                <p class="font-weight-light mb-0">
+                  University of Luxembourg
+                </p>
+              </a>
+              <br />
+              <a data-toggle="modal" href="#firstkeynote">
+              <p class="font-weight-light lato">
+                Applying Mutation Testing in Evolving Systems
+              </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 mx-auto my-4 text-justify">
+          <div class="row my-4 mx-auto justify-content-center">
+            <div class="col-lg-9 text-center">
+              <a href="https://gsyc.urjc.es/~grex/" target="_blank">
+                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/gregorio.jpeg" alt="Gregorio Robles">
+              </a>
+              <a href="https://gsyc.urjc.es/~grex/" target="_blank">
+                <h5>Gregorio Robles</h5>
+                <p class="font-weight-light mb-0">
+                  University of Rey Juan Carlos 
+                </p>
+              </a>
+              <br />
+              <a data-toggle="modal" href="#secondkeynote">
+              <p class="font-weight-light lato">
+                Where has all the mining gone?
+              </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="firstkeynote" tabindex="-1" role="dialog" aria-labelledby="firstkeynoteTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="firstkeynoteTitle">Applying Mutation Testing in Evolving Systems</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h4>Abstract</h4>
+              <p class="text-justify">
+                When software evolves, opportunities for making faults appear. To this end, it is important to test the evolved program behaviors during each evolution cycle. 
+                This means that test techniques should be adapted to target the effect of the program changes instead of the entire program functionality. 
+                In this talk an introduction to mutation testing, one of the most powerful testing techniques, and its related advances in applying it to test evolving systems, will be presented. 
+                The presentation will also show how a machine learning approach, combined with a scheme of graph and vector-based representations of static code features can make mutation testing applicable 
+                in just in time cases (commit-based testing) and its promising application to evolving software.
+              </p>
+    
+              <!-- <h4>Presentation</h4>
+              <p class="text-justify">
+                <a href="./content/slides-pradel.pdf" target="_blank">Link to slides</a>
+              </p> -->
+            </div>
+            <div class="modal-body">
+              <h4>Biography</h4>
+              <p class="text-justify">
+                Mike Papadakis is a senior research scientist at the Interdisciplinary Center for Security, Reliability and Trust (SnT) of the University of Luxembourg. 
+                He holds a Ph.D. in Computer Science from the Athens University of Economics and Business. 
+                His research interests include software testing, static analysis, prediction modeling and search-based software engineering. 
+                He is best known for his work on Mutation Testing for which he has been awarded IEEE TCSE Rising Star Award 2020. 
+                He has also been awarded several ACM SIGSOFT and IEEE TCSE Distinguished Paper and Artifact Awards and a Facebook Research Award (2019). 
+                He serves on multiple software engineering conference program committees, as a deputy editor of the Software Testing Verification and Reliability journal, and in the steering committees of ICST, 
+                ICSME and SSBSE. 
+                He has (co-)authored more than 100 publications in international peer-reviewed conferences and journals. 
+                His work has been supported by Facebook, FNR, CETREL (SIX group company), BGL (BNP Paribas), Microsoft and PayPal.
+              </p>
+    
+              <!-- <h4>Presentation</h4>
+              <p class="text-justify">
+                <a href="./content/How_much_code_do_you_need.md" target="_blank">Link to slides</a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
 
   <section class="bg-light page-section" id="organization">
     <div class="container">
@@ -149,6 +253,7 @@
                   <li><a href="https://carolin-brandt.de/">Carolin Brandt</a>, Delft University of Technology, Netherlands</li>
                   <li><a href="https://www.uantwerpen.be/en/staff/john-businge/">John Businge</a>, University of Antwerp, Belgium</li>
                   <li><a href="https://www.gemmacatolino.com/">Gemma Catolino</a>, Jheronimus Academy of Data Science, Netherlands</li>
+                  <li><a href="https://directory.unamur.be/staff/acleve">Anthony Cleve</a>, University of Namur, Belgium</li>
                   <li><a href="https://decan.lexpage.net/">Alexandre Decan</a>, University of Mons, Belgium</li>
                   <li><a href="https://xdevroey.be/">Xavier Devroey</a>, University of Namur, Belgium</li>
                   <li><a href="https://felipeebert.github.io/">Felipe Ebert</a>, Jheronimus Academy of Data Science, Netherlands</li>
@@ -156,7 +261,7 @@
                   <li><a href="https://who.paris.inria.fr/Julia.Lawall/">Julia Lawall</a>, Inria-Whisper, France</li>
                   <li><a href="https://www.ivanomalavolta.com/">Ivano	Malavolta</a>, Vrije Universiteit Amsterdam, Netherlands</li>
                   <li><a href="https://uclouvain.be/fr/repertoires/kim.mens">Kim	Mens</a>, Ecole Polytechnique de Louvain, Belgium</li>
-                  <li><a href="https://gsyc.urjc.es/~grex/">Gregorio Robles</a>, Universidad Rey Juan Carlos, Spain</li>
+                  <li><a href="https://gsyc.urjc.es/~grex/">Gregorio Robles</a>, University of Rey Juan Carlos, Spain</li>
                   <li><a href="https://www.win.tue.nl/~aserebre/">Alexander Serebrenik</a>, Eindhoven University of Technology, Netherlands</li>
                   <li><a href="https://research.tue.nl/en/persons/damian-a-tamburri">Damian Andrew Tamburri</a>, Eindhoven University of Technology, Netherlands</li>
                   <li><a href="https://azaidman.github.io/">Andy Zaidman</a>, Delft University of Technology, Netherlands</li>
