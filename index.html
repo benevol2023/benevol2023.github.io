@@ -49,6 +49,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#keynotes">Keynotes</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#organization">Organization</a>
                     </li>
                     <li class="nav-item">
@@ -81,9 +84,85 @@
         </div>
     </header>
 
+    <div class="modal fade" id="firstKeynote" tabindex="-1" role="dialog" aria-labelledby="firstKeynoteTitle"
+    aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="firstKeynoteTitle">TBA</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <h4>Abstract</h4>
+            <p class="text-justify">TBA
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="secondKeynote" tabindex="-1" role="dialog" aria-labelledby="secondKeynoteTitle"
+    aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="secondKeynoteTitle">TBA</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <h4>Abstract</h4>
+            <p class="text-justify">TBA
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="bg-light page-section" id="keynotes">
+        <div class="container">
+            <h2 class="text-center mt-0">Keynotes</h2>
+            <hr class="divider my-4">
+            <div class="row">
+                <div class="col-lg-8 mx-auto my-4 text-justify">
+                    <div class="row my-4 mx-auto">
+                        <div class="col-lg-6 text-center mx-auto d-block">
+                            <a href="https://collab.di.uniba.it/nicole/" target="_blank">
+                                <img class="img-fluid rounded-circle mb-3 col-lg-9" src="img/nicole.jpeg">
+                            </a>
+                            <a href="https://collab.di.uniba.it/nicole/" target="_blank">
+                                <h5>Nicole Novielli</h5>
+                            </a>
+                            <a data-toggle="modal" href="#firstKeynote">
+                                <p class="font-weight-light mt-3 mb-0 text-danger">
+                                <!-- add here the title -->
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 text-center mx-auto d-block">
+                            <a href="http://fernandocastor.github.io/" target="_blank">
+                                <img class="img-fluid rounded-circle mb-3 col-lg-9" src="img/fernando.jpeg">
+                            </a>
+                            <a href="http://fernandocastor.github.io/" target="_blank">
+                                <h5>Fernando Castor</h5>
+                            </a>
+                            <a data-toggle="modal" href="#secondKeynote">
+                                <p class="font-weight-light mt-3 mb-0 text-danger">
+                                <!-- add here the title -->
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- organization -->
-    <section class="bg-light page-section" id="organization">
+    <section class="bg-white page-section" id="organization">
         <div class="container">
             <h2 class="text-center mt-0">Organization</h2>
             <hr class="divider my-4">
@@ -230,13 +309,10 @@
         </div>
     </section>
 
-    <section class="bg-light page-section" id="venue">
+    <section class="bg-white page-section" id="venue">
         <div class="container">
             <h2 class="text-center mt-0">Venue and Accomodation</h2>
             <hr class="divider my-4">
-            <!-- <div class="row justify-content-center">
-            <h3 class="text-center mt-0">Keynotes</h3>
-            </div> -->
             <div class="row my-4 mx-auto">
                 <div class=" col-lg-8 mx-auto mt-4 mb-2 text-center">
                     <p class="mt-4 mb-2 text-justify lato">
