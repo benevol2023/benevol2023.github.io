@@ -4344,7 +4344,6 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1.25rem;
 }
 
 .card-title {
@@ -4547,7 +4546,7 @@ input[type="button"].btn-block {
 }
 
 .accordion > .card .card-header {
-  margin-bottom: -1px;
+  margin-bottom: 0;
 }
 
 .breadcrumb {
